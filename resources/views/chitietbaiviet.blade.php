@@ -63,7 +63,7 @@
                         <form action="{{route('savebv', ['id' => $cate->id])}}" method="post">
                             @csrf
                             <div class="form-group">
-                                <input type="text" class="form-control" value="{{ Illuminate\Support\Facades\Auth::user()->name }}" id="exampleInputEmail1" aria-describedby="emailHelp" name="name" readonly="true">
+                                <input type="text" class="form-control" value="{{ Illuminate\Support\Facades\Auth::user()->name }}" id="exampleInputEmail1" aria-describedby="emailHelp" name="name">
                             </div>
                             <input type="hidden" name="status" value="1">
                             <input type="hidden" name="user_id" value="{{ Illuminate\Support\Facades\Auth::user()->id }}">

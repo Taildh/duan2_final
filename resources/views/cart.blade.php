@@ -108,7 +108,6 @@
                                 <h4> Thông tin mua hàng </h4>
                                     <form action="{{route('cart.add')}}" method="post" class="form-pay">
                                        @csrf
-                                        <?php $total = 0 ?>
 
                                         @if(session('cart'))
                                             @foreach(session('cart') as $id => $details)
