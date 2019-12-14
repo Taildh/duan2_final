@@ -40,45 +40,48 @@
 			<div class="form-body">
 				<div class="form-group form-md-line-input has-success form-md-floating-label">
 					<div class="input">
-						<input type="text" name="code" value="" class="form-control">
+						<input type="text" name="code" value="{{old('code')}}" class="form-control">
 						<label for="form_control_1">Mã giảm giá</label>
 					</div>
+					@if($errors->first('code'))
+								<span class="text-danger">{{$errors->first('code')}}</span>
+					@endif
 				</div>
 				<div class="form-group form-md-line-input has-success form-md-floating-label">
 					<div class="input">
-						<input type="text" name="type" value="" class="form-control">
+						<input type="text" name="type" value="{{old('type')}}" class="form-control">
 						<label for="form_control_1">Hình thức giảm giá</label>
 					</div>
+					@if($errors->first('type'))
+								<span class="text-danger">{{$errors->first('type')}}</span>
+					@endif
 				</div>
 				<div class="form-group form-md-line-input has-success form-md-floating-label">
 					<div class="input">
 						<input type="text" name="description" value="" class="form-control">
 						<label for="form_control_1">Mô tả </label>
 					</div>
+					@if($errors->first('type'))
+								<span class="text-danger">{{$errors->first('type')}}</span>
+					@endif
 				</div>
 				<div class="form-group form-md-line-input has-success form-md-floating-label">
 					<div class="input">
-						<input type="text" name="percent_off" value="" class="form-control">
+						<input type="text" name="percent_off" value="{{old('type')}}" class="form-control">
 						<label for="form_control_1">Số % giảm</label>
 					</div>
+					@if($errors->first('percent_off'))
+								<span class="text-danger">{{$errors->first('percent_off')}}</span>
+					@endif
 				</div>
 				<div class="form-group form-md-line-input has-success form-md-floating-label">
 					<div class="input">
 						<input type="text" name="minimum" value="" class="form-control">
 						<label for="form_control_1">Đơn hàng tối thiểu</label>
 					</div>
-				</div>
-				<div class="form-group form-md-line-input has-success form-md-floating-label">
-					<div class="input">
-						<input type="date" name="start_date" value="" class="form-control">
-						<label for="form_control_1">Ngày bắt đầu</label>
-					</div>
-				</div>
-				<div class="form-group form-md-line-input has-success form-md-floating-label">
-					<div class="input">
-						<input type="date" name="end_date" value="" class="form-control">
-						<label for="form_control_1">Ngày kết thúc</label>
-					</div>
+					@if($errors->first('minimum'))
+								<span class="text-danger">{{$errors->first('minimum')}}</span>
+					@endif
 				</div>
 			</div>
 			<div class="form-actions noborder">

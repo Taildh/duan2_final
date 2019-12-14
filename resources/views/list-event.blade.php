@@ -71,15 +71,6 @@
                        Đơn hàng tối thiểu
                     </th>
                     <th>
-                       Ngày bắt đầu
-                    </th>
-                    <th>
-                      Ngày kết thúc
-                    </th>
-                    <th>
-                      Trạng thái
-                    </th>
-                    <th>
                       <a href="{{route('event.add')}}" class="btn btn-primary">
                       <i class="fa fa-plus"></i> Thêm</a>
                     </th>
@@ -105,21 +96,6 @@
                     </td>
                     <td>
                        {{$sk->minimum}}
-                    </td>
-                    <td>
-                       {{$sk->start_date}}
-                    </td>
-                    <td>
-                       {{$sk->end_date}}
-                    </td>
-                     <td>
-                      @if($sk->status == 0)
-                       <p class="btn btn-warning">Chưa Duyệt</p>
-                       <a href="{{route('event.edits', ['id' => $sk->id])}}" class="btn btn-primary">
-                       <i class="fa fa-edit"></i>Sửa</a>
-                      @elseif($sk->status == 1)
-                       <p class="btn btn-success">Đã duyệt</p>
-                      @endif
                     </td>
                      <td>
                       <a href="{{route('event.edit', ['id' => $sk->id])}}" class="btn btn-success">

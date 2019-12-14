@@ -3,6 +3,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Event;
 use Carbon\Carbon;
+use App\Http\Requests\EvenRequest;
 class EventController extends Controller
 {
     public function index(Request $request){
@@ -24,7 +25,7 @@ class EventController extends Controller
         return view('event.add-form',compact('model', 'events'));
     }
 
-    public function saveAddNew(Request $request){
+    public function saveAddNew(EvenRequest $request){
         $model = new Event();
         $dt = Carbon::now();
         if($request->hasFile('image')){
@@ -52,8 +53,8 @@ class EventController extends Controller
         $events = Event::all();
         return view('event.edit-form',compact('model', 'events'));
     }
-    public function saveEdit(Request $request){
-        $model = Event::find($request->id);
+    public function saveEdit(EvenRequest $request){
+        $model = Event::find($EvenRequest->id);
         $dt = Carbon::now();
         if($request->hasFile('image')){
             $path = $request->file('image')->storeAs('products', 
