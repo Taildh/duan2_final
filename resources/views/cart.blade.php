@@ -134,24 +134,18 @@
                                                 <label for="exampleInputEmail1"> Họ tên
                                                     <span style="color: red">*</span>
                                                 </label>
-                                            <input type="text" class="form-control" value="{{ Illuminate\Support\Facades\Auth::user()->name }}" id="exampleInputEmail1" name="name" aria-describedby="emailHelp" placeholder="">
+                                            <input type="text" class="form-control" value="{{ Illuminate\Support\Facades\Auth::user()->name }}" id="exampleInputEmail1" name="name" value="{{old('name')}}" aria-describedby="emailHelp" placeholder="">
                                             </div>
+                                             @if(count($errors) > 0)
+                                                <small><span style="color: red">{{$errors->first('name')}}</span></small>
+                                            @endif
                                             <div class="form-group">
                                                 <label for="exampleInputEmail1"> Số điện thoại
                                                     <span style="color: red">*</span>
                                                 </label>
-                                            <input type="text" class="form-control" value="{{ Illuminate\Support\Facades\Auth::user()->phone_number }}" id="exampleInputEmail1" name="name" aria-describedby="emailHelp" placeholder="">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1"> Địa chỉ
-                                                    <span style="color: red">*</span>
-                                                </label>
-                                            <input type="text" class="form-control" value="{{ Illuminate\Support\Facades\Auth::user()->address }}" id="exampleInputEmail1" name="name" aria-describedby="emailHelp" placeholder="">
-                                            </div>
-                                            <div class="form-group">
                                             <input type="text" name="phone_number" value="{{old('phone_number')}}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Số điện thoại ">
-                                            @if($errors->first('phone_number'))
-                                                <span class="text-danger">{{$errors->first('phone_number')}}</span>
+                                             @if(count($errors) > 0)
+                                                <small><span style="color: red">{{$errors->first('phone_number')}}</span></small>
                                             @endif
                                             </div>
 
@@ -163,15 +157,30 @@
                                                 </label>
                                                 <input type="text" class="form-control" id="exampleInputEmail1" name="name" aria-describedby="emailHelp" placeholder="">
                                             </div>
+                                             @if(count($errors) > 0)
+                                                <small><span style="color: red">{{$errors->first('name')}}</span></small>
+                                            @endif
                                             
                                         @endif
-                                        
+
 
                                         <div class="form-group">
+                                            <label for="exampleInputEmail1"> Địa chỉ
+                                                    <span style="color: red">*</span>
+                                                </label>
+                                            <input type="text" name="order_address" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{old('order_address')}}" placeholder=" Địa chỉ ">
+                                             @if(count($errors) > 0)
+                                                <small><span style="color: red">{{$errors->first('order_address')}}</span></small>
+                                            @endif
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1"> Ghi chú
+                                                </label>
                                             <textarea class="form-control" name="note" id="exampleFormControlTextarea1" rows="3" placeholder=" Ghi chú "></textarea>
                                         </div>
 
-                                        <input type="hidden" name="status" value="Chưa xử lý">
+                                        <input type="hidden" name="status" value="0">
                                             <button type="submit" class="btn btn-success">Gửi đơn hàng</button>
                                         
                                     </form>

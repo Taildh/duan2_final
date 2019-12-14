@@ -58,52 +58,37 @@ use App\Http\Requests\UserRequest;
                 <div class="col-lg-12">
                     <div class="loginbox">
                         <h1 style="margin-bottom: 20px;"> Tạo tài khoản </h1>
-                        <form action="">
-                            <input type="text" style="font-size: 13px;" name="" placeholder="Tên">
-                            <input type="text" style="font-size: 13px;" name="" placeholder="Email">
-                            <input type="password" style="font-size: 13px;" name="" placeholder="Mật khẩu">
-                            <input type="text" style="font-size: 13px;" name="" placeholder="Nhập lại mật khẩu">
-                            <input type="submit" name="" value="Đăng kí">
-                            <p>
-                                <a href="home.html"> Trở về </a>
-                            </p>
-                        </form>
+                        <form action="{{route('dangki.add')}}" method="post" enctype="multipart/form-data">
+                @csrf
+                <input type="text" style="font-size: 13px;" value="{{old('name')}}" name="name" placeholder="Tên">
+                @if(count($errors) > 0)
+                    <small><span style="color: red">{{$errors->first('name')}}</span></small>
+                @endif
+                <input type="text" style="font-size: 13px;" value="{{old('email')}}" name="email" placeholder="Email">
+                @if(count($errors) > 0)
+                    <small><span style="color: red">{{$errors->first('email')}}</span></small>
+                @endif
+                <input type="password" style="font-size: 13px;" value="" name="password" placeholder="Mật khẩu">
+                @if(count($errors) > 0)
+                    <small><span style="color: red">{{$errors->first('password')}}</span></small>
+                @endif
+                <input type="password" name="repassword" style="font-size: 13px;" value="" placeholder="Nhập lại mật khẩu">
+                @if(count($errors) > 0)
+                    <small><span style="color: red">{{$errors->first('repassword')}}</span></small>
+                @endif
+                <input type="hidden" name="role" value="Member">
+                <input type="submit" value="Đăng kí" />
+                <p>
+                    <a href="{{ URL::previous() }}"> Trở về </a>
+                </p>
+            </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <hr/>
-    <!-- <div class="container">
-        <div class="loginbox">
-            <img src="../../../shop/image/produc-dautay-banchuan.jpg" class="avatar">
-            <h1 style="margin-bottom: 20px;"> Tạo tài khoản </h1>
-            <form action="{{route('dangki.add')}}" method="post" enctype="multipart/form-data">
-                @csrf
-                <input type="text" style="font-size: 13px;" value="{{old('name')}}" name="name" placeholder="Tên">
-                @if(count($errors) > 0)
-                    <small><span style="color: black">{{$errors->first('name')}}</span></small>
-                @endif
-                <input type="text" style="font-size: 13px;" value="{{old('email')}}" name="email" placeholder="Email">
-                @if(count($errors) > 0)
-                    <small><span style="color: black">{{$errors->first('email')}}</span></small>
-                @endif
-                <input type="password" style="font-size: 13px;" value="" name="password" placeholder="Mật khẩu">
-                @if(count($errors) > 0)
-                    <small><span style="color: black">{{$errors->first('password')}}</span></small>
-                @endif
-                <input type="password" name="repassword" style="font-size: 13px;" value="" placeholder="Nhập lại mật khẩu">
-                @if(count($errors) > 0)
-                    <small><span style="color: black">{{$errors->first('repassword')}}</span></small>
-                @endif
-                <input type="hidden" name="role" value="Member">
-                <button type="submit" name="">Đăng kí</button>
-                <p>
-                    <a href="{{ URL::previous() }}"> Trở về </a>
-                </p>
-            </form>
-        </div>
-    </div> -->
+
 </body>
 @include('shop.brand')
 

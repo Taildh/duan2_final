@@ -47,20 +47,18 @@
                 <div class="col-lg-12">
                     <div class="loginbox">
                         <h1 style="margin-bottom: 20px;"> Đăng nhập tại đây </h1>
-                        <form action="">
-                            <input type="text" style="font-size: 13px;" name="" placeholder="Email">
-                            <input type="password" style="font-size: 13px;" name="" placeholder="Mật khẩu">
-                            <input type="submit" name="" value="Đăng nhập">
-                            <a href="dangki.html">
-                                <input type="button" name="" value="Đăng kí">
-                            </a>
-                            <p>
-                                <a href="home.html"> Trở về </a>
-                            </p>
-                            <a href="#"> Quên mật khẩu ? </a>
-                            <br>
-                            <a href="#"> Không có tài khoản ?</a>
-                        </form>
+                       <form action="{{route('dangnhap.add')}}" method="post" enctype="multipart/form-data">
+                @csrf
+                <input type="text" style="font-size: 13px;" value="{{old('email')}}" name="email" placeholder="Email">
+                <input type="password" style="font-size: 13px;" value="" name="password" placeholder="Mật khẩu">
+                @if (session('errmsg'))
+                  <p class="text-danger">{{session('errmsg')}}</p>
+                @endif
+                <input type="submit" value="Đăng nhập"/>
+                <p>
+                <a href="{{ URL::previous() }}"> Trở về </a>
+                </p>
+            </form>
                     </div>
                 </div>
             </div>

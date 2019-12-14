@@ -32,8 +32,9 @@ class TrangchuController extends Controller
             }
         }
         $model = DB::table('product')->orderBy('views', 'desc')->take(9)->get();
+        $model2 = DB::table('product')->orderBy('views', 'asc')->take(9)->get();
         $post = DB::table('post')->where('status',2)->orderBy('views', 'desc')->take(3)->get();
-        return view('home', compact('category_product','category_post','model','post','slideshow','slide'));
+        return view('home', compact('category_product','category_post','model','model2','post','slideshow','slide'));
     }
 
     public function sanpham($id){
