@@ -63,6 +63,7 @@ class TrangchuController extends Controller
         }
         $model->fill($request->all());
         $model->save();
+        Alert::success('Thành công', 'Gửi liên hệ thành công ');
         return redirect(route('lienhe'));
     }
 

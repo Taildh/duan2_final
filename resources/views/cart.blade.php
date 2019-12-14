@@ -77,7 +77,7 @@
                                     </td>
                                     <td data-th="Price">{{ $details['price'] }} VNĐ</td>
                                     <td data-th="Quantity">
-                                        <input type="number" value="{{ $details['quantity'] }}" class="form-control quantity" />
+                                        <input type="number" value="{{ $details['quantity'] }}" class="form-control quantity" min="1"/>
                                     </td>
                                     <td data-th="Subtotal" class="text-center">{{ $details['price'] * $details['quantity'] }} VNĐ</td>
                                     <td class="actions" data-th="">
@@ -139,15 +139,7 @@
                                              @if(count($errors) > 0)
                                                 <small><span style="color: red">{{$errors->first('name')}}</span></small>
                                             @endif
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1"> Số điện thoại
-                                                    <span style="color: red">*</span>
-                                                </label>
-                                            <input type="text" name="phone_number" value="{{old('phone_number')}}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Số điện thoại ">
-                                             @if(count($errors) > 0)
-                                                <small><span style="color: red">{{$errors->first('phone_number')}}</span></small>
-                                            @endif
-                                            </div>
+
 
                                             <input type="hidden" name="user_id" value="{{ Illuminate\Support\Facades\Auth::user()->id }}">
                                             @else
@@ -163,6 +155,15 @@
                                             
                                         @endif
 
+                                        <div class="form-group">
+                                                <label for="exampleInputEmail1"> Số điện thoại
+                                                    <span style="color: red">*</span>
+                                                </label>
+                                            <input type="text" name="phone_number" value="{{old('phone_number')}}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Số điện thoại ">
+                                             @if(count($errors) > 0)
+                                                <small><span style="color: red">{{$errors->first('phone_number')}}</span></small>
+                                            @endif
+                                            </div>
 
                                         <div class="form-group">
                                             <label for="exampleInputEmail1"> Địa chỉ
@@ -211,6 +212,7 @@
                                     </td>
                                 </tr>
                             @endforeach
+
                             <tr>
                                 @if (session()->has('coupon'))
                                     <tr class="order-total" style="margin-bottom: 10px; display: inline-block;">
@@ -225,15 +227,13 @@
                                                 <span>{{$total = $total-(session()->get('coupon')['totalM']*session()->get('coupon')['discount'])/100 }} VNĐ</span>
                                         </td>
                                     </tr>
-                                    <form action="{{route('coupon.destroy')}}" method="post">
-                                        @csrf
-                                        <button type="submit">Xóa mã</button>
-                                    </form>
+                                   
                                 @endif
                             </tr>
                         @endif
                         </tbody>
                     </table>
+                    @if(Illuminate\Support\Facades\Auth::check())
                     <table class="table">
                         <thead class="thead-dark">
                             <tr>
@@ -256,7 +256,14 @@
                     @if(count($errors) > 0)
                             <p class="alert alert-danger">{{$errors->first('code')}}</p>
                     @endif
-                    <form action="{{route('coupon.store')}}" method="post">
+                    @if(Session('coupon'))
+                    <form action="{{route('coupon.destroy')}}" method="post">
+                                        @csrf
+                                        <button type="submit" class="btn btn-primary">Xóa mã</button>
+                                    </form>
+                    
+                    @else
+                        <form action="{{route('coupon.store')}}" method="post">
                         @csrf
                         <input style="width: 100%;height: 2.507em; margin-bottom: 10px; border: 1px solid #ddd;box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);padding: 0 5px;" type="text" name="code" placeholder="Mã ưu đãi">
                         
@@ -264,6 +271,7 @@
                         <div class="thanhtoan" style="margin-bottom: 10px; max-width: 100%; font-family: 'Times New Roman', Times, serif; background: #80B435; text-align: center;padding: 10px; text-transform: uppercase; color: #fff;">
                             <button style="border:none; background: #80B435; color: #fff; font-family: 'Times New Roman', Times, serif; ">Áp dụng mã giảm giá</button>
                     </form>
+                    @endif
                     </div>
                     <div class="container">
                         <div class="row">
@@ -277,6 +285,7 @@
                             </div>
                         </div>
                     </div>
+                    @endif
                 </div>
                 @else
                     <div class="row">

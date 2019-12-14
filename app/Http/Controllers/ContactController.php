@@ -3,6 +3,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Contact;
 use RealRashid\SweetAlert\Facades\Alert;
+
 class ContactController extends Controller
 {
     public function index(Request $request){
