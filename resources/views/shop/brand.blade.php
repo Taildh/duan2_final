@@ -26,12 +26,12 @@
                         <ul class="box-footer-intro">
                             <li>
                                 <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                                <a href="home.html">Trang chủ
+                                <a href="{{route('trangchu')}}">Trang chủ
                                 </a>
                             </li>
                             <li>
                                 <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;
-                                <a href="introduce.html">Giới thiệu
+                                <a href="{{route('gioithieu')}}">Giới thiệu
                                 </a>
                             </li>
                             <li>
@@ -128,7 +128,7 @@
         <div class="end-bottom">
             <div class="container">
                 © Bản quyền thuộc về
-                <p> NST Fruits</p> | Cung cấp bởi NST Fruits
+                <p> CoolOrganic</p> | Cung cấp bởi CoolOrganic
             </div>
         </div>
     </div>
