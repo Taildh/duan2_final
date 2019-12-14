@@ -1,0 +1,800 @@
+<!-- Main-products -->
+    <div class="main-products">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title-products">
+                        <h3 id="title"> Sản phẩm nổi bật </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row task-products">
+                <div class="col-md-3 col-sm-6 col-xs-12 col-sm-6 col-lg-6">
+                    <div class="product-style-img">
+                        <a href="#">
+                            <img src="image/product1.png" width="100%">
+                        </a>
+                        <div class="show-product">
+                            <a href="#">
+                                <div class="text-show-product"> Chi tiết </div>
+                            </a>
+                            <a href="#">
+                                <div class="text-show-product"> Mua ngay </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="information-product">
+                        <h3 class="product-name">
+                            <a href="#" title="Sầu riêng miền nam"> Sầu riêng miền nam</a>
+                        </h3>
+                        <div class="price-box">
+                            <div class="product-price">
+                                <span class="price product-price"> 70.000đ </span>
+                            </div>
+                            <div class="product-old">
+                                <span class="price product-old">
+                                    <strike> 100.000đ </strike>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 col-sm-6 col-lg-6">
+                    <div class="product-style-img">
+                        <a href="#">
+                            <img src="image/product2.png" width="100%">
+                        </a>
+                        <div class="show-product">
+                            <a href="#">
+                                <div class="text-show-product"> Chi tiết </div>
+                            </a>
+                            <a href="#">
+                                <div class="text-show-product"> Giỏ hàng </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="information-product">
+                        <h3 class="product-name">
+                            <a href="#" title="Sầu riêng miền nam"> Sầu riêng miền nam</a>
+                        </h3>
+                        <div class="price-box">
+                            <div class="product-price">
+                                <span class="price product-price"> 70.000đ </span>
+                            </div>
+                            <div class="product-old">
+                                <span class="price product-old">
+                                    <strike> 100.000đ </strike>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 col-sm-6 col-lg-6">
+                    <div class="product-style-img">
+                        <a href="#">
+                            <img src="image/product1.png" width="100%">
+                        </a>
+                        <div class="show-product">
+                            <a href="#">
+                                <div class="text-show-product"> Chi tiết </div>
+                            </a>
+                            <a href="#">
+                                <div class="text-show-product"> Giỏ hàng </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="information-product">
+                        <h3 class="product-name">
+                            <a href="#" title="Sầu riêng miền nam"> Sầu riêng miền nam</a>
+                        </h3>
+                        <div class="price-box">
+                            <div class="product-price">
+                                <span class="price product-price"> 70.000đ </span>
+                            </div>
+                            <div class="product-old">
+                                <span class="price product-old">
+                                    <strike> 100.000đ </strike>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 col-sm-6 col-lg-6">
+                    <div class="product-style-img">
+                        <a href="#">
+                            <img src="image/product2.png" width="100%">
+                        </a>
+                        <div class="show-product">
+                            <a href="#">
+                                <div class="text-show-product"> Chi tiết </div>
+                            </a>
+                            <a href="#">
+                                <div class="text-show-product"> Giỏ hàng </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="information-product">
+                        <h3 class="product-name">
+                            <a href="#" title="Sầu riêng miền nam"> Sầu riêng miền nam</a>
+                        </h3>
+                        <div class="price-box">
+                            <div class="product-price">
+                                <span class="price product-price"> 70.000đ </span>
+                            </div>
+                            <div class="product-old">
+                                <span class="price product-old">
+                                    <strike> 100.000đ </strike>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 col-sm-6 col-lg-6">
+                    <div class="product-style-img">
+                        <a href="#">
+                            <img src="image/product1.png" width="100%">
+                        </a>
+                        <div class="show-product">
+                            <a href="#">
+                                <div class="text-show-product"> Chi tiết </div>
+                            </a>
+                            <a href="#">
+                                <div class="text-show-product"> Giỏ hàng </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="information-product">
+                        <h3 class="product-name">
+                            <a href="#" title="Sầu riêng miền nam"> Sầu riêng miền nam</a>
+                        </h3>
+                        <div class="price-box">
+                            <div class="product-price">
+                                <span class="price product-price"> 70.000đ </span>
+                            </div>
+                            <div class="product-old">
+                                <span class="price product-old">
+                                    <strike> 100.000đ </strike>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-products-bottom">
+                <a href="#">
+                    <button type="submit" class="button1"> Xem tất cả </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+/* Main-Products */
+.main-products {
+    padding-top: 50px;
+}
+.main-products .title-products {
+    text-align: center;
+    color: #306ac2;
+    font-weight: bold;
+    font-size: 24px;
+}
+.product-style-img {
+    padding: 20px 10px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #F5F6FF;
+    margin-top: 10px;
+}
+.product-style-img:hover img {
+    opacity: 0.6;
+}
+.main-products img {
+    max-width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    position: relative;
+}
+.show-product {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;  
+    z-index: 99;
+}
+
+.show-product a {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    padding: 12px 22px 9px;
+    border: 2px solid #fff;
+    margin-bottom: 5px;
+}
+.show-product a:hover {
+    background: #bda87f!important;
+    border: 2px solid #bda87f;
+}
+.show-product .text-show-product {
+    background: none;
+}
+.show-product a:hover {
+    text-decoration: none;
+}
+
+.product-style-img:hover .show-product {
+    opacity: 1;
+}
+.main-products-bottom {
+    margin-top: 30px;
+    text-align: center;
+}
+.text-show-product {
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+.information-product {
+    background: #F5F6FF;
+    position: relative;
+    text-align: center;
+    padding: 5px 0;
+}
+.product-name {
+    font-size: 14px;
+    font-family: "Muli",sans-serif;
+    line-height: 22px;
+    margin: 0;
+    font-weight: 400;
+    word-break: break-word;
+    overflow: hidden;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 22px;
+}
+.information-product .product-name a:hover {
+    text-decoration: none;
+}
+.product-price {
+    display: inline-block;
+    margin-right: 7px;
+}
+.product-old {
+    display: inline-block;
+}
+
+<!-- Main-service -->
+    <div class="main-service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
+                    <div class="service">
+                        <h2> Dịch vụ của chúng tôi </h2>
+                        <p> Hiện tại vùng nguyên liệu của chúng tôi có thể cung cấp các thực tập tươi sạch với số lượng lớn vì
+                            đang vào vụ mùa thu hoạch nên chúng tôi có thể cung ứng cho tất cả các đối tác xuất khẩu nông
+                            sản trên cả nước.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 col-xl-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="service-style-img">
+                                <img src="image/service1.png" width="130">
+                            </div>
+                        </div>
+                        <div class="col-md-8" style="padding: 0">
+                            <div class="service-style-text">
+                                <h2> Trang trại hữu cơ </h2>
+                                <p> Cung cấp 100% thực phẩm sạch đảm bảo an toàn và ngon nhất </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 col-xl-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="service-style-img">
+                                <img src="image/service2.png" width="130">
+                            </div>
+                        </div>
+                        <div class="col-md-8" style="padding: 0">
+                            <div class="service-style-text">
+                                <h2> Thực phẩm sạch </h2>
+                                <p> Cung cấp 100% thực phẩm sạch đảm bảo an toàn và ngon nhất </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 col-xl-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="service-style-img">
+                                <img src="image/service3.png" width="130">
+                            </div>
+                        </div>
+                        <div class="col-md-8" style="padding: 0">
+                            <div class="service-style-text">
+                                <h2> An toàn sinh học </h2>
+                                <p> Cung cấp 100% thực phẩm sạch đảm bảo an toàn và ngon nhất </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 col-xl-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="service-style-img">
+                                <img src="image/service4.png" width="130">
+                            </div>
+                        </div>
+                        <div class="col-md-8" style="padding: 0">
+                            <div class="service-style-text">
+                                <h2> Đa dạng sinh học </h2>
+                                <p> Cung cấp 100% thực phẩm sạch đảm bảo an toàn và ngon nhất </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="style-button">
+                <a href="#">
+                    <button type="button" id="" class="button1"> Tìm hiểu thêm </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+/* Main-service*/
+.main-service {
+    background: #f7f8f9;
+    margin-top: 30px;
+}
+.main-service .service h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #306ac2;
+    font-weight: bold;
+    font-size: 24px;
+}
+.service-style-img {
+    margin: 20px 0;
+}
+.service-style-text {
+    margin: 20px 0;
+}
+.main-service .service p {
+    text-align: center;
+    font-weight: 400;
+    color: #707070;
+    font-size: 15px;
+    padding: 0 20px;
+    margin-top: 15px;
+}
+.service-style-text h2 {
+    font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.service-style-text p {
+    font-weight: 400;
+    color: #707070;
+    font-size: 15px;
+    float: left;
+}
+.style-button {
+	max-width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.button1 {
+	border: 1px #EBEBFF solid;
+    background: #f09c05;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    height: 40px;
+}
+.button1:hover {
+    color: white;
+    background: #306ac2;
+}
+
+<!-- Main-selling products  -->
+    <div class="main-products">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title-products">
+                        <h3 id="title"> Sản phẩm bán chạy </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row task-products">
+                <div class="col-md-3">
+                    <div class="product-style-img">
+                        <a href="#">
+                            <img src="image/product1.png" width="250">
+                        </a>
+                    </div>
+                    <div class="information-product">
+                        <h3 class="product-name">
+                            <a href="#" title="Sầu riêng miền nam"> Sầu riêng miền nam</a>
+                        </h3>
+                        <div class="price-box">
+                            <div class="product-price">
+                                <span class="price product-price"> 70.000đ </span>
+                            </div>
+                            <div class="product-old">
+                                <span class="price product-old">
+                                    <strike> 100.000đ </strike>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-style-img">
+                        <a href="#">
+                            <img src="image/product2.png" width="250">
+                        </a>
+                    </div>
+                    <div class="information-product">
+                        <h3 class="product-name">
+                            <a href="#" title="Sầu riêng miền nam"> Sầu riêng miền nam</a>
+                        </h3>
+                        <div class="price-box">
+                            <div class="product-price">
+                                <span class="price product-price"> 70.000đ </span>
+                            </div>
+                            <div class="product-old">
+                                <span class="price product-old">
+                                    <strike> 100.000đ </strike>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-style-img">
+                        <a href="#">
+                            <img src="image/product1.png" width="250">
+                        </a>
+                    </div>
+                    <div class="information-product">
+                        <h3 class="product-name">
+                            <a href="#" title="Sầu riêng miền nam"> Sầu riêng miền nam</a>
+                        </h3>
+                        <div class="price-box">
+                            <div class="product-price">
+                                <span class="price product-price"> 70.000đ </span>
+                            </div>
+                            <div class="product-old">
+                                <span class="price product-old">
+                                    <strike> 100.000đ </strike>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-style-img">
+                        <a href="#">
+                            <img src="image/product2.png" width="250">
+                        </a>
+                    </div>
+                    <div class="information-product">
+                        <h3 class="product-name">
+                            <a href="#" title="Sầu riêng miền nam"> Sầu riêng miền nam</a>
+                        </h3>
+                        <div class="price-box">
+                            <div class="product-price">
+                                <span class="price product-price"> 70.000đ </span>
+                            </div>
+                            <div class="product-old">
+                                <span class="price product-old">
+                                    <strike> 100.000đ </strike>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-style-img">
+                        <a href="#">
+                            <img src="image/product1.png" width="250">
+                        </a>
+                    </div>
+                    <div class="information-product">
+                        <h3 class="product-name">
+                            <a href="#" title="Sầu riêng miền nam"> Sầu riêng miền nam</a>
+                        </h3>
+                        <div class="price-box">
+                            <div class="product-price">
+                                <span class="price product-price"> 70.000đ </span>
+                            </div>
+                            <div class="product-old">
+                                <span class="price product-old">
+                                    <strike> 100.000đ </strike>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-products-bottom">
+                <button type="submit" class="button1"> Xem tất cả </button>
+            </div>
+        </div>
+    </div>
+
+<!-- Main Blog -->
+    <div class="main-content-blog">
+        <div class="container">
+            <h2 title="Tin tức"> Tin tức </h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="content-blog">
+                        <div class="row" style="margin-bottom: 30px; margin-top: 30px;">
+                            <div class="col-md-6">
+                                <div class="thumb-left">
+                                    <a href="chitietbaiviet.html">
+                                        <img src="image/blog7.jpg" width="100%">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="name-right">
+                                    <h4>
+                                        <a href="chitietbaiviet.html"> 4 lý do bạn nên ăn dâu tây phòng tránh ung thư hiệu quả </a>
+                                    </h4>
+                                </div>
+                                <div class="day-blog">
+                                    <span class="post-time">
+                                        <i class="fa fa-user" aria-hidden="true" style="margin-bottom: 10px;"></i> Bởi sơn
+                                    </span>
+                                    <span class="short-time">
+                                        <i class="fa fa-calendar" aria-hidden="true" style="margin-bottom: 10px;"></i> 14/10/2019
+                                    </span>
+                                    <p>Cũng giống như thói quen trong mỗi bữa ăn của người Việt, bát nước chấm cũng không thể
+                                        nào thiếu trong ẩm thực Nhật Bản. Tuy nhiên, đa dạng hơn...</p>
+                                    <a href="chitietbaiviet.html"> Đọc tiếp </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="thumb-left">
+                                    <a href="chitietbaiviet.html">
+                                        <img src="image/blog8.jpg" width="100%">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="name-right">
+                                    <h4>
+                                        <a href="chitietbaiviet.html"> 4 lý do bạn nên ăn dâu tây phòng tránh ung thư hiệu quả </a>
+                                    </h4>
+                                </div>
+                                <div class="day-blog">
+                                    <span class="post-time">
+                                        <i class="fa fa-user" aria-hidden="true" style="margin-bottom: 10px;"></i> Bởi sơn
+                                    </span>
+                                    <span class="short-time">
+                                        <i class="fa fa-calendar" aria-hidden="true" style="margin-bottom: 10px;"></i> 14/10/2019
+                                    </span>
+                                    <p>Cũng giống như thói quen trong mỗi bữa ăn của người Việt, bát nước chấm cũng không thể
+                                        nào thiếu trong ẩm thực Nhật Bản. Tuy nhiên, đa dạng hơn...</p>
+                                    <a href="chitietbaiviet.html"> Đọc tiếp </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="thumb-left">
+                                    <a href="chitietbaiviet.html">
+                                        <img src="image/blog9.jpg" width="100%">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="name-right">
+                                    <h4>
+                                        <a href="chitietbaiviet.html"> 4 lý do bạn nên ăn dâu tây phòng tránh ung thư hiệu quả </a>
+                                    </h4>
+                                </div>
+                                <div class="day-blog">
+                                    <span class="post-time">
+                                        <i class="fa fa-user" aria-hidden="true" style="margin-bottom: 10px;"></i> Bởi sơn
+                                    </span>
+                                    <span class="short-time">
+                                        <i class="fa fa-calendar" aria-hidden="true" style="margin-bottom: 10px;"></i> 14/10/2019
+                                    </span>
+                                    <p>Cũng giống như thói quen trong mỗi bữa ăn của người Việt, bát nước chấm cũng không thể
+                                        nào thiếu trong ẩm thực Nhật Bản. Tuy nhiên, đa dạng hơn...</p>
+                                    <a href="chitietbaiviet.html"> Đọc tiếp </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="thumb-left">
+                                    <a href="chitietbaiviet.html">
+                                        <img src="image/blog7.jpg" width="100%">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="name-right">
+                                    <h4>
+                                        <a href="chitietbaiviet.html"> 4 lý do bạn nên ăn dâu tây phòng tránh ung thư hiệu quả </a>
+                                    </h4>
+                                </div>
+                                <div class="day-blog">
+                                    <span class="post-time">
+                                        <i class="fa fa-user" aria-hidden="true" style="margin-bottom: 10px;"></i> Bởi sơn
+                                    </span>
+                                    <span class="short-time">
+                                        <i class="fa fa-calendar" aria-hidden="true" style="margin-bottom: 10px;"></i> 14/10/2019
+                                    </span>
+                                    <p>Cũng giống như thói quen trong mỗi bữa ăn của người Việt, bát nước chấm cũng không thể
+                                        nào thiếu trong ẩm thực Nhật Bản. Tuy nhiên, đa dạng hơn...</p>
+                                    <a href="chitietbaiviet.html"> Đọc tiếp </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu-right">
+                        <h4> Danh mục tin </h4>
+                        <div class="menu">
+                            <ul>
+                                <li>
+                                    <a href="chitietbaiviet.html">
+                                        <i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;&nbsp; Tin mới hằng ngày </a>
+                                </li>
+                                <li>
+                                    <a href="chitietbaiviet.html">
+                                        <i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;&nbsp; Tin giá cả </a>
+                                </li>
+                                <li>
+                                    <a href="chitietbaiviet.html">
+                                        <i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;&nbsp; Mẹo vặt </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="banner-highlight">
+                            <img style="margin-bottom: 20px;" src="image/spquangcao1-banchuan.jpg" width="100%">
+                            <img src="image/spquangcao2-banchuan.jpg" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+/* Main content blog*/
+.main-content-blog {
+    max-width: 100%;
+    padding: 50px 0;
+}
+.main-banner-post {
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.main-banner-post-title{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main-content-blog .main-banner-post-title h2 {
+    color: #3b9048;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 30px;
+}
+.main-content-blog h2 {
+    color: #306ac2;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 30px;
+}
+.thumb-left {
+    float: left;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.thumb-left img {
+    margin-bottom: 10px;
+    transition: all 0.6s;
+}
+.thumb-left img:hover {
+    transform: scale(1.1);
+}
+.name-right h4 {
+    font-family: 'Noto serif', sans-serif;
+    font-weight: 400;
+    position: relative;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0px 0px 0px;
+    text-transform: uppercase;
+}
+.name-right a {
+    color: black;
+}
+.name-right a:hover {
+    text-decoration: none;
+    color: #3b9048;
+}
+.day-blog  {
+    padding: 14px 0;
+    font-size: 15px;
+    font-family: "Muli",sans-serif;
+    color: #707070;
+    text-align: justify;
+}
+.day-blog p {
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 16px;
+}
+.day-blog a {
+    color: #707070;
+}
+.day-blog a:hover {
+    text-decoration: none;
+    color: #3b9048;
+}
+.post-time {
+    margin-right: 10px;
+}
+
+.menu-right {
+    border-left: solid 1px #3b9048;
+    padding: 0 20px;
+}
+.menu-right h4 {
+    font-family: 'Noto serif', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.menu-right .menu ul {
+    width: 100%;
+    padding: 0px;
+    list-style-type: none;
+    }
+.menu-right .menu ul li {
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    }
+.menu-right .menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+    } 
+.menu-right .menu ul li a:hover {
+    color: #3b9048;
+    }

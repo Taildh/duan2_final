@@ -1,0 +1,979 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Main-Header*/
+.main-header {
+    max-width: 100%;
+    background: #80B435;
+    padding: 10px 0 0 0;
+    font-size: 14px;
+    color: #fff;
+}
+.header-menu {
+    font-family: 'Lobster', cursive;
+}
+.header-menu ul li a {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
+.header-menu li.nav-item {
+    padding: 0 5px;
+}
+.header-static ul {
+    list-style-type: none;
+    margin-top: 5px;
+}
+.header-static ul li {
+    display: inline-block;
+    color: #fff;
+    border-right: 1px solid rgba(255,255,255,0.4);
+    padding: 0 5px 0 0;
+}
+.header-static ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.header-login ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 5px;
+}
+.header-login ul li {
+    display: inline-block;
+    border-right: 1px solid rgba(255,255,255,0.4);
+    padding: 0 10px 0 0;
+    padding-left: 10px;
+}
+.header-login ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.header-login i {
+    color: #fff;
+    padding-left: 10px;
+}
+.header-menu {
+    max-width: 100%;
+    background: #fff;
+    padding: 5px 0;
+}
+
+/* Main-Abouts-us*/
+.main-about-us {
+    padding: 50px 0;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.main-about-us .about-us-text h2  {
+    color: #306ac2;
+    font-weight: bold;
+    font-size: 30px;
+}
+.main-about-us .about-us-text p {
+    color: #707070;
+    font-size: 15px;
+    text-align: justify;
+    font-size: 16px;
+}
+.main-about-us button {
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    border: 1px #ebebeb solid;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+.main-about-us button:hover {
+    color: white;
+    background: #3b9048;
+}
+
+/* Main-Products */
+.main-products {
+    padding: 50px 0;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.main-products .title-products {
+    text-align: center;
+    color: #306ac2;
+    font-weight: bold;
+    font-size: 30px;
+}
+.product-style-img {
+    padding: 20px 10px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #F5F6FF;
+    margin-top: 10px;
+}
+.product-style-img:hover img {
+    opacity: 0.6;
+    box-shadow: #3b9048;
+}
+.main-products img {
+    max-width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    position: relative;
+}
+.show-product {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;  
+    z-index: 99;
+}
+
+.show-product a {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    padding: 12px 22px 9px;
+    border: 2px solid #fff;
+    margin-bottom: 5px;
+}
+.show-product a:hover {
+    background: #3b9048!important;
+    border: 2px solid #3b9048;
+}
+.show-product .text-show-product {
+    background: none;
+}
+.show-product a:hover {
+    text-decoration: none;
+}
+
+.product-style-img:hover .show-product {
+    opacity: 1;
+}
+.main-products-bottom {
+    margin-top: 30px;
+    text-align: center;
+}
+.text-show-product {
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+.information-product {
+    background: #F5F6FF;
+    position: relative;
+    text-align: center;
+    padding: 10px 0;
+}
+.product-name {
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+    overflow: hidden;
+    text-align: center;
+    height: 22px;
+}
+.information-product .product-name a:hover {
+    text-decoration: none;
+    color: #3b9048;
+}
+.product-price {
+    color: #80B435;
+}
+
+/* Main-product-detail*/
+.main-product-detail {
+    max-width: 100%;
+    padding: 50px 0;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+/* Main-service*/
+.main-service {
+    background: #f7f8f9;
+    padding: 50px 0;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.main-service .title-service h2 {
+    color: #306ac2;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+.main-service .title-service p {
+    color: #707070;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.main-service .content-service{
+    text-align: center;
+}
+.main-service .content-service img {
+    max-width: 135px;
+    /* transition: all 1s; */
+    cursor: pointer;
+}
+.pulse img:hover{ 
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;   
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+/* .main-service .content-service img:hover {
+    transform: rotate(1turn);
+} */
+.title-content-service h4 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 0 10px 0;
+}
+.title-content-service p {
+    color: #707070;
+    font-size: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Main-why*/
+.main-why {
+    max-width: 100%;
+    padding: 50px 0;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.advertisement {
+    padding: 90px 0;
+    background-image: linear-gradient(to bottom right, #badc58, rgb(100,10,10,0.1)), url(image/qc1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.advertisement h2 {
+    text-align: center;
+    margin: 0px 0px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-size: 30px;
+}
+.advertisement p {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-size: 16px;
+}
+.counter {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;	
+    font-family: 'Galada', cursive;
+}
+
+/* Main Trusted-Products*/
+.main-trusted-products {
+    max-width: 100%;
+    padding: 50px 0;
+    background: #f7f8f9;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.main-trusted-products h2 {
+    text-align: center;
+    color: #306ac2;
+    font-weight: bold;
+    font-size: 30px;
+}
+.main-trusted-products .media {
+    padding: 10px 0;
+}
+.wiggle img:hover{ 
+    animation: wiggle 75ms infinite;
+    animation-timing-function: linear;   
+  }
+  
+  @keyframes wiggle {
+    0% { transform: translate(2px, 0); }
+    50% { transform: translate(-4px, 0); } 
+    100% { transform: translate(2px, 0); }
+  }
+.media-body p {
+    font-size: 16px;
+}
+.main-trusted-products .media img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    /* transition: all 0.5s; */
+    cursor: pointer;
+}
+/* .main-trusted-products .media:hover img {
+    opacity: 0.6;
+    transform: scaleX(-1);
+} */
+.main-trusted-products .media .media-body a {
+    color: rgba(23, 16, 16, 0.76);
+}
+.main-trusted-products .media .media-body a:hover {
+    text-decoration: none;
+    color: #3b9048;
+}
+/* Main Blog */
+.main-blog {
+    max-width: 100%;
+    padding: 50px 0;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.blog-img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.blog-img img {
+transition: all 0.6s;
+}
+.blog-img img:hover {
+    transform: scale(1.1);
+}
+.title-blog h2 {
+    color: #306ac2;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+.title-blog p {
+    text-align: center;
+    font-size: 16px;
+}
+.box-blog {
+    border: #e0e0e0 1px solid;	
+}
+
+.blog-content {
+    padding: 15px 15px;
+    text-align: justify;
+}
+.blog-content:hover {
+    box-shadow: 0px 2px 4px 0px #9b9b9b;
+}
+.blog-content a {
+    font-weight: bold;
+    text-decoration: none;
+}
+.blog-content p {
+    font-size: 16px;
+    min-height: 40px;
+}
+
+/* Main-brands*/
+.main-brands {
+    max-width: 100%;
+    padding: 30px 0;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.title-brands h2 {
+    color: #306ac2;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+.box-brands {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Main footer*/
+.main-footer {
+    max-width: 100%;
+    background: #081427;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.box-footer-1 h2 {
+    color: #fff;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.box-border {
+    border: 2px solid#138dc4;
+    width: 30px;
+}
+.box-footer-1 {
+    color: #fff;
+}
+.box-footer-1 img {
+    padding-top: 25px;
+    max-width: 100%;
+    height: auto;
+}
+.box-footer-1 p {
+    text-align: justify;
+    color: #fff;
+    padding-top: 10px;
+    width: 100%;
+    font-size: 15px;
+}
+.box-footer-2 h2 {
+    color: #fff;
+    padding-top: 50px;
+    font-size: 30px;
+}
+ul.box-footer-intro {
+    padding-top: 25px;
+    line-height: 35px;
+    color: #04baca;
+    font-size: 15px;
+}
+ul.box-footer-intro li {
+    list-style-type: none;
+    color: #fff;
+    height: 35px;
+}
+ul.box-footer-intro a {
+    text-decoration: none;
+    color: #fff;
+}
+ul.box-footer-intro a:hover {
+    text-decoration: none;
+    color: #3b9048;
+}
+.box-footer-3 h2 {
+    color: #fff;
+    padding-top: 50px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 30px;
+}
+.box-footer-4 h2 {
+    color: #fff;
+    padding-top: 50px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 30px;
+}
+.end-bottom {
+    max-width: 100%;
+    background: #040c18;
+    text-align: center;
+}
+.end-bottom .container {
+    color: #fff;
+    font-size: 13px;
+}
+.end-bottom p {
+    font-size: 13px;
+    display: inline-block;
+    color: #3b9048;
+    padding-top: 15px;
+}
+
+/* Slick */
+/* hover icon */
+.icon-link {
+    position: absolute;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.style-btn {
+    display: inline-block;
+    width: 35px;
+    height: auto;
+    background: #80B435;
+    text-align: center;
+    margin: 5px;
+    border-radius: 30%;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+    padding: 0 0;
+}
+.style-btn i {
+    line-height: 10px;
+    font-size: 15px;
+    transition: 0.2s linear;
+}
+.style-btn:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+.style-btn::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #3b9048;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+.style-btn:hover::before {
+    animation: icon 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+@keyframes icon {
+    0% {
+    left: -110%;
+    top: 90%;
+    }
+    50% {
+    top: 10%;
+    left: -30%;
+    }
+    100% {
+    top: -10%;
+    left: -10%;
+    }
+}
+.slick-slide img {
+    display: inline-block;
+}
+
+/* main-introduce */
+.main-introduce {
+    max-width: 100%;
+    padding: 50px 0;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.title-introduce h2 {
+    color: #306ac2;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.box-introduce img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+.box-text p {
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+/* Breadcrumb background */
+.bread-crumb-background {
+    max-width: 100%;
+    background-image: url(image/banner-all.png);
+    padding: 65px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.directional h3 {
+    text-align: center;
+    color: #306ac2;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.back-directional {
+    text-align: center;
+}
+.back-directional a {
+    text-decoration: none;
+    color: black;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 15px;
+}
+.back-directional a:hover {
+    color: #3b9048;
+}
+
+/* Main-contact*/
+.main-contact {
+    max-width: 100%;
+    padding: 50px 0;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.form-group input {
+    border: 1px solid #04baca;
+}
+.form-group textarea {
+    border: 1px solid #04baca;
+}
+.contact-form .form-group {
+    margin-bottom: 0em;
+}
+.contact-form button:hover {
+    background: #3b9048;
+}
+
+/* Main-cart */
+.main-cart {
+    max-width: 100%;
+    padding: 50px 0;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.thanhtoan a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+/* Main content blog*/
+.main-content-blog {
+    max-width: 100%;
+    padding: 50px 0;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.main-content-blog h2 {
+    color: #306ac2;
+    font-weight: bold;
+    font-size: 30px;
+}
+.main-content-blog .box-blog {
+    margin-bottom: 20px;
+}
+/* Category products */
+.category-products {
+    max-width: 100%;
+    padding: 50px 0;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.category-products h2 {
+    color: white;
+    /* font-weight: bold; */
+    background: #80B435;
+    text-align: center;
+    padding: 6px 0;
+    margin: 0px;
+    font-size: 30px;
+}
+.category-products-img {
+    padding: 20px 10px;
+    text-align: center;
+    border: 1px solid #F5F6FF;
+}
+.detail-category-products:hover {
+    box-shadow: 0px 4px 6px 0px #9b9b9b;
+}
+.detail-category-products {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+}
+.detail-category-products:hover .overlay {
+    opacity: 1;
+} 
+.icon {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+a.icon.one {
+    left: calc(50% + 22px);
+    text-align: center;
+}
+a.icon.two {
+    left: calc(50% - 22px);
+}
+a.icon:hover {
+    background: #80b435;
+    color: #fff;
+    border-color: #80b435;
+}
+.category-products-information {
+    background: #F5F6FF;
+    text-align: center;
+    padding: 10px 0;
+}
+.category-products-name a {
+    color: rgba(23, 16, 16, 0.76);
+}
+.category-products-name a:hover {
+    color: #3b9048;
+}
+.category-products-price {
+    color: #3b9048;
+}
+
+.category-products-menu .menu ul {
+    width: 150px;
+    padding: 0px;
+    list-style-type: none;
+}
+.category-products-menu .menu ul li {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid white;
+    margin-left: 20px;
+    position: relative;
+}
+.category-products-menu .menu ul li a {
+    text-decoration: none;
+    color: rgba(23, 16, 16, 0.76);
+    font-weight: bold;
+    display: block;
+}
+.category-products-menu .menu ul li:hover {
+    background: #3b9048;
+  }
+.category-products-menu .menu ul li a:hover {
+    color: white;
+}
+.menu .sub-menu {
+    position: absolute;
+    left: 150px;
+    top: 0px;
+    display: none;
+}
+.category-products-menu .menu ul li:hover .sub-menu {
+    display: block;
+}
+.category-products-filter ul {
+    padding: 0px;
+    list-style-type: none;
+}
+.category-products-filter ul li {
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid white;
+    padding: 0 20px;
+    position: relative;
+}
+.category-products-filter ul li a {
+    text-decoration: none;
+    color: rgba(23, 16, 16, 0.76);
+    font-weight: bold;
+    display: block;
+}
+.category-products-filter ul li:hover {
+    background: #3b9048;
+  }
+.category-products-filter ul li a:hover {
+    color: white;
+}
+
+
+/* Main article detail*/
+.main-article-detail {
+    max-width: 100%;
+    padding: 50px 0;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.main-article-detail h2{
+    font-family: 'Noto serif', sans-serif;
+    font-weight: 400;
+    position: relative;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0px 0px 0px;
+    text-transform: uppercase;
+}
+.postby {
+    padding: 10px 0;
+}
+.detail-content p {
+    padding: 5px 0;
+    text-align: justify;
+    font-size: 16px;
+}
+.detail-content img {
+    padding: 0 0;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+.detail-form {
+    padding: 10px 0;
+}
+.related-post {
+    padding: 10px 0;
+}
+.related-post-img {
+    overflow: hidden;
+}
+.related-post-img img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    transition: all 1s;
+}
+.related-post-img img:hover {
+    transform: scale(1.2);
+}
+.related-post-title {
+    margin: 5px 0;
+    font-size: 12px;
+    text-align: justify;
+    text-decoration: none;
+}
+.related-post-title a {
+    color: #000;
+}
+.related-post-title a:hover {
+    color: #3b9048;
+    text-decoration: none;
+}
+.menu-right {
+    border-left: solid 1px #3b9048;
+    padding: 0 20px;
+}
+.menu-right h4 {
+    font-family: 'Noto serif', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.menu-right .menu ul {
+    width: 100%;
+    padding: 0px;
+    list-style-type: none;
+    }
+.menu-right .menu ul li {
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    }
+.menu-right .menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+    } 
+.menu-right .menu ul li a:hover {
+    color: #3b9048;
+    }
+/* @media(max-width: 414px){
+.header-login{
+float: left;
+}
+} */
+/* Login */
+.main-background {
+    margin: 0px;
+    padding: 0px;
+    background: url(image/banner-banchuan.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background: coral;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 60px 30px;
+    border-radius: 10px;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+h1 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+}
+.loginbox p {
+    margin: 0px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"], input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    padding: 5px 0;
+    font-size: 16px;
+    color: white;
+}
+.loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 35px;
+    background: black;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.loginbox input[type="button"] {
+    border: none;
+    outline: none;
+    height: 35px;
+    background: black;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: #3b9048;
+    color: white;
+}
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+}
+.loginbox a:hover {
+    font-size: 12px;
+    color: #3b9048;
+    line-height: 20px;
+}
+
+
+

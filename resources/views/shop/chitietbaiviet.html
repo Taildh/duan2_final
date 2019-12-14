@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chi tiết bài viết</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- Link Getbootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Slick -->
+    <link rel="stylesheet" href="./plugins/slick/slick.css">
+    <link rel="stylesheet" href="./plugins/slick/slick-theme.css">
+
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Change number -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Fonts.google.com-->
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Main-Header -->
+    <div class="main-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="header-static">
+                        <ul>
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <li>
+                                <a href="#" title="nst135@gmail.com">thucpham304@gmail.com</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Miễn phí ship cho đơn hàng trên 1tr VND">Miễn phí ship đơn hàng trên 1tr VND</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="header-login">
+                        <ul>
+                            <li>
+                                <a href="#" title="đăng nhập"> Đăng nhập </a>
+                            </li>
+                            <li>
+                                <a href="#" title="đăng kí"> Đăng kí </a>
+                            </li>
+                            <a href="cart.html">
+                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="home.html">
+                        <img src="image/logo1.png" width="150">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="home.html">Trang chủ
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="introduce.html">Giới thiệu</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    Sản phẩm
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="product.html">Trái cây việt</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="product.html">Trái cây nhập khẩu</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="product.html">Rau củ quả</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="product.html">Thực phẩm tươi sống</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    Tin tức
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="blog.html">Tin mới hằng ngày</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="blog.html">Tin giá cả</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="blog.html">Mẹo vặt</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Liên hệ</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- Breadcrumb background  -->
+    <div class="bread-crumb-background">
+        <div class="container-fluid">
+            <div class="directional">
+                <div class="container">
+                    <h3> Tin tức </h3>
+                    <div class="back-directional">
+                        <a href="home.html">
+                            <a href="home.html"> Trang chủ </a>
+                        </a> &nbsp;
+                        <i class="fa fa-angle-right" aria-hidden="true"></i> &nbsp;
+                        <a href="blog.html"> Tin tức </a>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i> &nbsp;
+                        <a href="blog.html"> 6 loại trái cây mùa hè ngăn ngừa mất nước hiệu quả </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main article detail -->
+    <div class="main-article-detail">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2> 6 loại trái cây mùa hè ngăn ngừa mất nước hiệu quả </h2>
+                    <div class="detail-content">
+                        <div class="postby">
+                            <span style="font-size: 12px;">
+                                Đăng bởi
+                                <b> Trần thanh sơn </b>
+                                vào lúc
+                                <b> 17/7/2019 </b>
+                            </span>
+                        </div>
+                        <p>
+                            Thời tiết nắng nóng khiến cơ thể dễ bị mất nước, suy kiệt. Một số loại trái cây có tác dụng giữ nước và giải nhiệt hiệu quả
+                            bạn nên biết.
+                        </p>
+                        <img src="image/img-chitietbaiviet1.jpg" width="100%">
+                        <p>
+                            Dưa chuột: Chứa 95% nước, dưa chuột giúp kéo dài thời gian giữ nước của cơ thể. Ngoài ra, nó còn giàu các hợp chất chống
+                            viêm, giúp loại bỏ các chất thải ra khỏi cơ thể và giảm kích ứng da. Nghiên cứu cũng cho thấy
+                            dưa chuột thúc đẩy quá trình ngăn ngừa nếp nhăn và chống lão hóa. Bạn có thể cho vài lát dưa
+                            chuột vào cốc nước lọc để uống khi khát.
+                        </p>
+                        <img src="image/img-chitietbaiviet1-1.jpg" width="100%">
+                        <p>
+                            Quả bơ: Theo Woman's Day, ăn bơ hàng ngày giúp cơ thể bổ sung kali, chất béo không bão hòa đơn, chất xơ. Chúng kiểm soát
+                            cholesterol, lượng đường trong máu và giúp cơ thể giữ nước.
+                        </p>
+
+                        <p> Dưa hấu: Cũng chứa 91% nước, dưa hấu còn giàu lycopene, giúp cơ thể bảo vệ các tế bào khỏi bị tổn
+                            thương do ánh nắng mặt trời và cải thiện làn da của bạn. Bạn có thể bắt đầu ngày mới với vài
+                            lát dưa hấu ngon ngọt hoặc ăn nhẹ giữa các bữa ăn. Tránh ăn bất cứ thứ gì cùng dưa hấu. Ảnh:
+                            Wellbeing.
+                        </p>
+                        <p> Dưa vàng: Đây cũng là loại dưa mùa hè ngon, ngọt và tươi mát. Dưa vàng cũng giàu kali, giúp ổn định
+                            huyết áp trong cơ thể. Bạn có thể thưởng thức vài lát dưa vàng, ăn cùng ngũ cốc hoặc sữa, sữa
+                            chua vào buổi sáng.
+                        </p>
+                        <p> Trái cây họ cam quýt: Cam, chanh...là những trái cây giàu vitamin C, giúp tăng cường khả năng miễn
+                            dịch của cơ thể. Một ly nước cam, chanh với chút đá có thể khôi phục lại sự cân bằng của chất
+                            điện giải và bổ sung các khoáng chất bị mất.
+                        </p>
+                    </div>
+                    <h2> Viết bình luận của bạn </h2>
+                    <div class="detail-form">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Họ tên">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Nội dung"></textarea>
+                            </div>
+                            <button type="submit" style="margin-bottom: 30px;" class="btn btn-info">
+                                Gửi bình luận </button>
+                        </form>
+                    </div>
+                    <h2> Bài viết liên quan </h2>
+                    <div class="related-post">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="related-post-img">
+                                    <a href="chitietbaiviet.html">
+                                        <img src="image/blog1.jpg" width="100%">
+                                    </a>
+                                </div>
+                                <div class="related-post-title">
+                                    <a href="#"> Tại sao bạn không nên uống nước ép đóng chai?
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="related-post-img">
+                                    <a href="chitietbaiviet.html">
+                                        <img src="image/blog2.jpg" width="100%">
+                                    </a>
+                                </div>
+                                <div class="related-post-title">
+                                    <a href="#"> Tại sao bạn không nên uống nước ép đóng chai? </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="related-post-img">
+                                    <a href="chitietbaiviet.html">
+                                        <img src="image/blog3.jpg" width="100%">
+                                    </a>
+                                </div>
+                                <div class="related-post-title">
+                                    <a href="#"> Tại sao bạn không nên uống nước ép đóng chai? </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="related-post-img">
+                                    <a href="chitietbaiviet.html">
+                                        <img src="image/blog1.jpg" width="100%">
+                                    </a>
+                                </div>
+                                <div class="related-post-title">
+                                    <a href="#"> Tại sao bạn không nên uống nước ép đóng chai? </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu-right">
+                        <h4> Danh mục tin </h4>
+                        <div class="menu">
+                            <ul>
+                                <li>
+                                    <a href="chitietbaiviet.html">
+                                        <i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;&nbsp; Tin mới hằng ngày </a>
+                                </li>
+                                <li>
+                                    <a href="chitietbaiviet.html">
+                                        <i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;&nbsp; Tin giá cả </a>
+                                </li>
+                                <li>
+                                    <a href="chitietbaiviet.html">
+                                        <i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;&nbsp; Mẹo vặt </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="banner-highlight">
+                            <img style="margin-bottom: 20px;" src="image/spquangcao1-banchuan.jpg" width="100%">
+                            <img src="image/spquangcao2-banchuan.jpg" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main footer -->
+    <div class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="box-footer-1">
+                        <h2> Về chúng tôi </h2>
+                        <div class="box-border"></div>
+                        <div class="pulse">
+                            <div class="box-footer-style">
+                                <a href="home.html">
+                                    <img src="image/logo1.png" width="200">
+                                </a>
+                            </div>
+                            <p> Với cửa hàng phục vụ khách hàng một cách chân thành nhất và luôn mang lại cho khách hàng sự tin
+                                cậy nhờ luôn thực hiện đúng các cam kết về chất lượng hàng hóa luôn tươi ngon, có nguồn gốc
+                                rõ ràng.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="box-footer-2">
+                        <h2> Giới thiệu </h2>
+                        <div class="box-border"></div>
+                        <ul class="box-footer-intro">
+                            <li>
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="home.html">Trang chủ
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;
+                                <a href="introduce.html">Giới thiệu
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;
+                                <a href="product.html">Sản phẩm
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;
+                                <a href="blog.html">Tin tức
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;
+                                <a href="contact.html">Liên hệ
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="box-footer-3">
+                        <h2> Dịch vụ </h2>
+                        <div class="box-border"></div>
+                        <ul class="box-footer-intro">
+                            <li>
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;
+                                <a href="home.html">Trang chủ
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;
+                                <a href="introduce.html">Giới thiệu
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;
+                                <a href="product.html">Sản phẩm
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;
+                                <a href="blog.html">Tin tức
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;
+                                <a href="contact.html">Liên hệ
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="box-footer-4">
+                        <h2> Thông tin liên hệ </h2>
+                        <div class="box-border"></div>
+                        <ul class="box-footer-intro">
+                            <li>
+                                <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
+                                <a href="#"> 0968 373 262 </a>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;
+                                <a href="#">thucpham304@gmail.com</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;
+                                <a href="#">257 Trần Cung - Hà Nội </a>
+                            </li>
+                            <li>
+                                <a class="style-btn" href="#">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a class="style-btn" href="#">
+                                    <i class="fa fa-google" aria-hidden="true"></i>
+                                </a>
+                                <a class="style-btn" href="#">
+                                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                                </a>
+                                <a class="style-btn" href="#">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                                <a class="style-btn" href="#">
+                                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <img src="image/footer2.png" width="150">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end-bottom">
+            <div class="container">
+                © Bản quyền thuộc về
+                <p> NST Fruits</p> | Cung cấp bởi NST Fruits
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</html>
